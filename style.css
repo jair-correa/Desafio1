@@ -1,7 +1,39 @@
 *{
     margin: opx;
+    font-family: 'inter';
 }
 
-#top-title{
+@media print {
+    nav{
+        display: none;
+    }
+}
+@media screen {
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+       
+}
+
+@media (max-widht:480px) {
+    nav a{
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+#topmenu{    
+    background-color: black;
+    background-size: cover;
+    padding: 75px;
     
+}
+#topmenu-title{
+    margin: 5px 0px 0px 150px;
+    color: aliceblue; 
 }
