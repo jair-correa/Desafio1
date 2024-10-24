@@ -30,8 +30,9 @@
 #topmenu{    
     background-color:#303030;
     background-size: cover;
-    padding: 75px;
+    padding: 100px;
     margin-bottom: 0%;
+    font-size: 25px;
 }
 #topmenu-title{
     text-align:left;
@@ -39,11 +40,16 @@
 }
 #infomenu{
     background-color:#F9F9F9;
-    padding: 30px;
+    padding: 50px;
 }
 #infomenu-text{
     display: grid;
     grid-auto-flow: column;
     columns:auto;
     margin-left: 100px;
+
+}
+#historymenu{
+    background-color: white;
+    padding: 100px;
 }
