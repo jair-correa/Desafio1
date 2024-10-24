@@ -12,7 +12,7 @@
     nav{
         display: flex;
         flex-direction: row;
-        gap: 5px;
+        gap: 2px;
     }
        
 }
@@ -28,7 +28,7 @@
     }
 }
 #topmenu{    
-    background-color: black;
+    background-color:#303030;
     background-size: cover;
     padding: 75px;
     
@@ -36,4 +36,7 @@
 #topmenu-title{
     margin: 5px 0px 0px 150px;
     color: aliceblue; 
+}
+#infomenu{
+    background-color:#F9F9F9;
 }
