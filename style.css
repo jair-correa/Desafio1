@@ -41,4 +41,7 @@
 #infomenu{
     background-color:#F9F9F9;
     padding: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
 }
