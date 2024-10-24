@@ -34,14 +34,16 @@
     margin-bottom: 0%;
 }
 #topmenu-title{
-    text-align: justify;
-    color: aliceblue; 
-    
+    text-align:left;
+    color: aliceblue;
 }
 #infomenu{
     background-color:#F9F9F9;
     padding: 30px;
+}
+#infomenu-text{
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    columns:auto;
+    margin-left: 100px;
 }
