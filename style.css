@@ -71,3 +71,15 @@
     color: #F9F9F9;
     padding: 50px;
 }
+input{
+    font-family: 'raleway';
+    color: #0000004D;
+    width: 500px;
+    height: 72px;
+    background-color:#FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
