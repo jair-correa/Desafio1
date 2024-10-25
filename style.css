@@ -26,15 +26,27 @@
         flex-direction: row;
         width: 100%;
     }
+
+}
+p{
+    font-size: 24px;
 }
 #topmenu{    
     background-color:#303030;
     background-size: cover;
     padding: 130px;
     margin-bottom: 0%;
-    font-size: 25px;
+    margin-top: 3px;
+   }
+
+#topmenu-title{ 
+    font-size: 60px;
+    margin:o;
+    text-align:left;
+    color: aliceblue;
 }
-#topmenu-title{
+#topmenu-text{
+    font-size: 20px;
     text-align:left;
     color: aliceblue;
 }
