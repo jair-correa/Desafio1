@@ -1,115 +1,141 @@
 /* Estilos padrões (Desktop First) */
 * {
-    margin: 0;
-    font-family: "Inter", sans-serif;
-  }
-  
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.topmenu {
+  background-color: #303030;
+  background-size: cover;
+  padding: 15vh;
+}
+
+#topmenu-title {
+  font-size: 4vw;
+  color: aliceblue;
+}
+
+#topmenu-text {
+  font-size: 2vw;
+  color: aliceblue;
+}
+
+#infomenu {
+  background-color: #f9f9f9;
+  padding: 10vh;
+}
+
+#infomenu-text,
+#historymenu {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+#formulary {
+  background-color: #303030;
+  text-align: center;
+  padding: 5vh;
+}
+
+#formtitle {
+  font-size: 3vw;
+  color: #f9f9f9;
+}
+
+input,
+button {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5vw;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #c07212;
+  color: #eaece5;
+}
+
+button:hover {
+  background-color: #458aa7;
+  transform: translate(-0.5vw);
+  box-shadow: 0px 1.5vh 2vh #1a3b49;
+  transition-duration: 200ms;
+}
+
+/* 📱 Mobile (max-width: 320px) */
+@media only screen and (max-width: 393px) {
   p {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
-  
+
   .topmenu {
-    background-color: #303030;
-    background-size: cover;
-    padding: 15vh;
+    padding: 18vw;
+    text-align: left;
   }
-  
   #topmenu-title {
-    font-size: 4vw;
-    color: aliceblue;
+    font-size: 5vw;
   }
-  
-  #topmenu-text {
-    font-size: 2vw;
-    color: aliceblue;
+
+  #infomenu-text {
+    grid-auto-flow: row;
+    text-align: left;
   }
-  
-  #infomenu {
-    background-color: #f9f9f9;
-    padding: 10vh;
-  }
-  
-  #infomenu-text,
+
   #historymenu {
-    display: grid;
-    grid-auto-flow: column;
-    align-items: center;
-    margin-left: 5vw;
+    grid-auto-flow: row;
+    font-display: flex;
+  }
+  img{
+    margin-top: 2vh;
+    max-width: 90vw;
+    display: block;
+    height: auto;
   }
   
   #formulary {
+    margin-top: 2vh;
     background-color: #303030;
     text-align: center;
-    padding: 5vh;
+    padding: 10vh 18vw;
+    object-fit: cover;
   }
-  
-  #formtitle {
+  input {
+    width: 80%;
+    font-size: 4vw;
+  }
+  button {
+    width: 80%;
+    font-size: 4vw;
+  }
+}
+
+
+/* 📲 Tablet (768px a 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  p {
+    font-size: 2vw;
+  }
+
+  #topmenu {
+    padding: 12vh;
+  }
+
+  #topmenu-title {
+    font-size: 4.5vw;
+  }
+
+  input {
+    width: 50%;
     font-size: 3vw;
-    color: #f9f9f9;
   }
-  
-  input,
+
   button {
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5vw;
-    border-radius: 10px;
+    width: 50%;
+    font-size: 3vw;
   }
-  
-  button {
-    background-color: #c07212;
-    color: #eaece5;
-  }
-  
-  button:hover {
-    background-color: #458aa7;
-    transform: translate(-0.5vw);
-    box-shadow: 0px 1.5vh 2vh #1a3b49;
-    transition-duration: 200ms;
-  }
-  
-  /* 📱 Mobile (max-width: 320px) */
-  @media only screen and (max-width: 393px) {
-    p {
-      font-size: 3vw;
-    }
-  
-    .topmenu {
-      padding: 18vw;
-      text-align: left;
-    }
-    #topmenu-title {
-      font-size: 5vw;
-    }
-  
-    #infomenu-text {
-      grid-auto-flow: row;
-      text-align: left;
-    }
-  
-    #historymenu {
-      grid-auto-flow: row;
-      font-display: flex;
-    }
-    img{
-      margin-top: 2vh;
-      max-width: 90vw;
-      display: block;
-      height: auto;
-    }
-    
-    #formulary {
-      margin-top: 2vh;
-      background-color: #303030;
-      text-align: center;
-      padding: 10vh 18vw;
-      object-fit: cover;
-    }
-    input {
-      width: 80%;
-      font-size: 4vw;
-    }
-    button {
-      width: 80%;
-      font-size: 4vw;
-    }
-  }
+}
